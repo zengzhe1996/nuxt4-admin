@@ -9,7 +9,7 @@ export default defineNuxtConfig({
   nitro: {
     devProxy: {
       '/api': {
-        target: 'http://113.128.179.82:19989', // 默认端口 80 可省略
+        target: 'http://113.128.179.82:19989',
         changeOrigin: true
       }
     },

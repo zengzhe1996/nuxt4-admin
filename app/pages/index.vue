@@ -1,5 +1,5 @@
 <template>
-  <div @click="getData">index</div>
+  <div @click="$router.push('/about')">index</div>
   <!-- <div>{{ data }}</div> -->
 </template>
 
