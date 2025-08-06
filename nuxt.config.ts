@@ -2,8 +2,9 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
-  modules: ['@unocss/nuxt', '@nuxt/fonts', '@pinia/nuxt'],
+  modules: ['@unocss/nuxt', '@nuxt/fonts', '@pinia/nuxt', '@nuxt/ui'],
   devServer: {
+    host: 'localhost',
     port: 3000
   },
   nitro: {
